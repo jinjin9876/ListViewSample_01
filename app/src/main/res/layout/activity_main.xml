@@ -36,6 +36,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:hint="자연수를 입력해 주세요."
+                android:inputType="numberDecimal"
+                android:maxLength="3"
                 android:padding="10dp"
                 android:textColorHint="#c2c2c2"
                 android:textSize="16dp"/>
@@ -68,6 +70,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:hint="자연수를 입력해 주세요."
+                android:inputType="numberDecimal"
+                android:maxLength="3"
                 android:padding="10dp"
                 android:textColorHint="#c2c2c2"
                 android:textSize="16dp"/>
@@ -100,6 +104,7 @@
                 android:clickable="true"
                 android:gravity="center"
                 android:text="적용하기"
+                android:textColor="#ffffff"
                 android:textSize="16dp"/>
 
         </LinearLayout>
